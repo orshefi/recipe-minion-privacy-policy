@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Minion</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff7ed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            color: #333;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        .logo svg {
+            width: 32px;
+            height: 32px;
+            margin-right: 8px;
+        }
+        .lucide-chef-hat {
+            stroke: #f97316;
+        }
+        .placeholder {
+            width: 150px;
+            height: 150px;
+            background-color: #ffe8d6;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: #666;
+        }
+        h2 {
+            font-size: 48px;
+            color: #ff5733;
+            margin: 0 0 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+            margin: 0 0 30px;
+        }
+        .cta-button {
+            background: linear-gradient(to right, #ff8c66, #ff5733);
+            color: white;
+            border: none;
+            padding: 15px 0;
+            width: 100%;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .privacy-link {
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .privacy-link a {
+            font-size: 14px;
+            color: #f97316;
+            text-decoration: none;
+        }
+        .privacy-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chef-hat h-8 w-8 text-orange-500">
+                    <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path>
+                    <line x1="6" x2="18" y1="17" y2="17"></line>
+                </svg>
+                Recipe Minion
+            </h1>
+        </div>
+        <div class="placeholder">Recipe Minion Logo</div>
+        <h2>Something is cooking...</h2>
+        <p>Your personal recipe assistant that simplifies meal planning, cooking, and discovery of new culinary delights.</p>
+        <a href="https://github.com/orshefi/recipe-minion/issues/new?title=Early+Access+Request&body=I+would+like+to+request+early+access+to+Recipe+Minion!" class="cta-button">Get Early Access</a>
+        <div class="privacy-link">
+            <a href="/privacy.html">Privacy Policy</a>
+        </div>
+    </div>
+</body>
+</html>
